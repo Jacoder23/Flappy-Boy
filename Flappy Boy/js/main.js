@@ -34,7 +34,7 @@ var mainState = {
         game.input.onDown.add(this.jump, this);
 
         this.score = 0;
-        this.labelScore = game.add.text(20, 20, "0", { font: "30px Arial", fill: "#ffffff" });  
+        this.labelScore = game.add.text(20, 20, "0", { font: "35px Impact", fill: "#ffffff" });  
 
         this.jumpSound = game.add.audio('jump');
         this.jumpSound.volume = 0.2;
