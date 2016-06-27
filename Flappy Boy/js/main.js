@@ -11,6 +11,7 @@ var mainState = {
     },
 
     create: function() { 
+    
     // If this is not a desktop (so it's a mobile device) 
         if (game.device.desktop == false) {
             // Set the scaling mode to SHOW_ALL to show all the game
@@ -25,7 +26,7 @@ var mainState = {
             // Center the game horizontally and vertically
             game.scale.pageAlignHorizontally = true;
             game.scale.pageAlignVertically = true;
-    }
+        }
         if(!game.device.desktop) {
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
             game.scale.setMinMax(game.width/2, game.height/2, game.width, game.height);
@@ -53,6 +54,8 @@ var mainState = {
 
         this.jumpSound = game.add.audio('jump');
         this.jumpSound.volume = 0.2;
+        // Call the 'jump' function when we tap/click on the screen
+        game.input.onDown.add(this.jump, this);
     },
 
     update: function() {
