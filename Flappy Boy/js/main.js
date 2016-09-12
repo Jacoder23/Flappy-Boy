@@ -6,7 +6,7 @@ var mainState = {
         game.stage.backgroundColor = '#71c5cf';
 
         game.load.image('bird', 'https://jacoder23.github.io/flappy-duterte/Flappy%2520Boy/assets/XIQ3vSZ.png');  
-        game.load.image('pipe', 'assets/pipe.png'); 
+        game.load.image('pipe', 'https://jacoder23.github.io/flappy-duterte/Flappy%2520Boy/assets/pipe.png'); 
         game.load.audio('jump', 'assets/jump.wav'); 
     },
 
