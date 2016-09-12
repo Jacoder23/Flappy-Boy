@@ -5,7 +5,7 @@ var mainState = {
     preload: function() { 
         game.stage.backgroundColor = '#71c5cf';
 
-        game.load.image('bird', 'assets/XIQ3vSZ.png');  
+        game.load.image('bird', '/Flappy%2520Boy/assets/XIQ3vSZ.png');  
         game.load.image('pipe', 'assets/pipe.png'); 
         game.load.audio('jump', 'assets/jump.wav'); 
     },
