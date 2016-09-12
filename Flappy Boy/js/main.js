@@ -7,7 +7,7 @@ var mainState = {
 
         game.load.image('bird', 'https://jacoder23.github.io/flappy-duterte/Flappy%2520Boy/assets/XIQ3vSZ.png');  
         game.load.image('pipe', 'https://jacoder23.github.io/flappy-duterte/Flappy%2520Boy/assets/pipe.png'); 
-        game.load.audio('jump', 'assets/jump.wav'); 
+        game.load.audio('jump', 'https://jacoder23.github.io/flappy-duterte/Flappy%252520Boy/assets/jump.wav'); 
     },
 
     create: function() { 
