@@ -2,7 +2,8 @@ var game = new Phaser.Game(400, 490);
 
 var mainState = {
 
-    preload: function() { 
+    preload: function() {
+        var music;
         game.stage.backgroundColor = '#71c5cf';
 
         game.load.image('bird', 'https://jacoder23.github.io/flappy-duterte/Flappy%2520Boy/assets/XIQ3vSZ.png');  
@@ -11,7 +12,6 @@ var mainState = {
         game.load.audio('music', 'https://jacoder23.github.io/flappy-duterte/Flappy%25252520Boy/assets/President Rodrigo Duterte\'s inaugural speech_171.webm');
 
     },
-    var music;
 
     create: function() { 
         
